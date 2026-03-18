@@ -1,0 +1,38 @@
+baseURL = 'https://nangman98.github.io'
+title = 'nangman Park'
+theme = 'nangman'
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.parser]
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[menus]
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 20
+[[menus.main]]
+name = 'Research'
+pageRef = '/research'
+weight = 30
+[[menus.main]]
+name = 'Publications'
+pageRef = '/publications'
+weight = 40
+[[menus.main]]
+name = 'Talks'
+pageRef = '/talks'
+weight = 45
+[[menus.main]]
+name = 'Photos'
+pageRef = '/photos'
+weight = 50

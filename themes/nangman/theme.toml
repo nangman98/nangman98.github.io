@@ -1,0 +1,8 @@
+name = 'nangman'
+license = 'MIT'
+description = "nangman Park's personal academic homepage"
+homepage = 'https://nangman98.github.io'
+
+[author]
+  name = 'Park Seongbin'
+  homepage = 'https://nangman98.github.io'
