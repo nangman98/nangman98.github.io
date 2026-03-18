@@ -1,11 +1,16 @@
 ---
 title: "Home"
 ---
-<div class="pt-lg-5 mb-lg-5 d-flex flex-column justify-content-center align-items-center">
-    <p class="text-center mb-0 fs-1 fw-light">Park Seongbin (박성빈)</p>
-    <p class="text-center fs-6 fw-light">
-        M.S. Student, <a href="https://physics.sogang.ac.kr" target="_blank">Department of Physics</a>, Sogang University, Seoul, Korea
-    </p>
+<div class="pt-lg-5 mb-lg-5 d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
+    <div class="flex-shrink-0">
+        <img src="/about/images/profile.jpg" alt="Park Seongbin" class="rounded-circle" width="150">
+    </div>
+    <div>
+        <p class="mb-0 fs-1 fw-light">Park Seongbin (박성빈)</p>
+        <p class="fs-6 fw-light">
+            M.S. Student, <a href="https://physics.sogang.ac.kr" target="_blank">Department of Physics</a>, Sogang University, Seoul, Korea
+        </p>
+    </div>
 </div>
 
 <div class="mb-lg-5">
@@ -17,3 +22,9 @@ title: "Home"
         to understand and predict quantum materials properties.
     </p>
 </div>
+
+### Recent News
+- **2025/12** Poster presentation at ICAMD 2025, Busan, Korea
+- **2025/08** Visiting research at UC Berkeley
+- **2025/03** Joined Sogang University Graduate School (M.S. program in Physics)
+{class="home-news"}

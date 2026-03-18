@@ -26,5 +26,23 @@
     gtag('config', '{{$gtag}}');
   </script>
   {{ end }}
+<script>
+(function(){
+    const toggle = document.getElementById('theme-toggle');
+    const icon = toggle?.querySelector('i');
+    const saved = localStorage.getItem('theme') || 'light';
+    if (saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        if (icon) { icon.className = 'bi bi-sun-fill'; }
+    }
+    toggle?.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        if (icon) { icon.className = next === 'dark' ? 'bi bi-sun-fill' : 'bi bi-moon-fill'; }
+    });
+})();
+</script>
 </body>
 </html>
