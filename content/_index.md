@@ -26,5 +26,5 @@ title: "Home"
 ### Recent News
 - **2025/12** Poster presentation at ICAMD 2025, Busan, Korea
 - **2025/08** Visiting research at UC Berkeley
-- **2025/03** Joined Sogang University Graduate School (M.S. program in Physics)
+- **2025/02** Joined Sogang University Graduate School (M.S. program in Physics)
 {class="home-news"}

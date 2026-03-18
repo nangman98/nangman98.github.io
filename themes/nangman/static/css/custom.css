@@ -75,8 +75,23 @@
 [data-theme="dark"] .talk-title {
     color: #6ea8fe;
 }
-[data-theme="dark"] h3, [data-theme="dark"] h5, [data-theme="dark"] strong {
+[data-theme="dark"] h3, [data-theme="dark"] h5, [data-theme="dark"] h6, [data-theme="dark"] strong {
     color: #f0f0f0;
+}
+[data-theme="dark"] .card {
+    background-color: #2a2a3e;
+    color: #e0e0e0;
+}
+[data-theme="dark"] .card-text {
+    color: #aaa !important;
+}
+[data-theme="dark"] .badge.bg-light {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border-color: #555 !important;
+}
+[data-theme="dark"] .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.3) !important;
 }
 /* Dark mode toggle button */
 .theme-toggle {
